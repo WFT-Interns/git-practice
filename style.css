@@ -18,10 +18,158 @@ h1 {
 }
 
 .container {
-  padding: 1rem;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  padding: 3rem;
+  background-color: aquamarine;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: black 5px 4px 8px;
+  justify-content: center;
+}
+
+/*grid-columns*/
+.grid-container4{
+  background-color: #37204d;
+  height: 950px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 70px;
+  border-radius: 20px;
+}
+.grid-item9,
+.grid-item10,
+.grid-item11,
+.grid-item12,
+.grid-item13,
+.grid-item14{
+  height: 320px;
+}
+/*skyblue*/
+.grid-item9{
+  grid-area: 1 / 1 / 4 / 2;
+  margin-top: 50px;
+  height: 870px;
+  width: 82%;
+  margin-left: 20%;
+  background-color: skyblue;
+  border-radius: 50px 0 0 50px;
+}
+/*blue*/
+.grid-item10{
+  grid-area: 1 / 2 / 3 / 3;
+  background-color: #eee;
+  margin-top: 30px;
+  height: 570px;
+  background-image: url(idbg.png);
+  background-size: 100% 570px;
+  border-radius: 10px 10px 0 0;
+}
+.pp{
+  background-image: url(me.jpg); 
+  background-repeat: no-repeat;
+  background-size: 100% 100px; 
+  height: 100px;
+  width: 26%;
+  margin-left:36%;
+  margin-top: 100px;
+  border-radius: 50%;
+  border: 2px solid;
+  margin-bottom: 50px;
+}
+/*lightblue*/
+.grid-item12{
+  grid-area: 1 / 4 / 4 / 5;
+  background-color: lightblue;
+  height: 870px;
+  width: 80%;
+  margin-top: 50px;
+  border-radius: 0 50px 50px 0;
+}
+#prs{
+  text-align: center;
+  font-family: arial;
+}
+/*gray-1*/
+.grid-item11{
+  background-color: #ddd;
+  margin-top: 80px;
+  height: 240px;
+}
+#ps{
+  font-family: arial;
   text-align: center;
 }
 
-li {
-  list-style: none;
+/*gray-2*/
+.grid-item13{
+  grid-area: 2 / 3 / 3 / 4;
+  background-color: #ccc;
+  height: 260px;
+  margin-top: -40px;
 }
+#we{
+  text-align: center;
+  font-family: arial;
+}
+/*gray-3*/
+.grid-item14{
+  grid-area: 3 / 2 / 4 / 4;
+  background-color: #bbb;
+  margin-top: -60px;
+}
+/*social media icons*/
+#fbicon,
+#igicon{
+  position: relative;
+  top: 230px;
+  font-size: 10px;
+  background-color: blue;
+  width: 43px;
+  height: 10px;
+  margin-left: 26%;
+  border-radius: 2px;
+  border: 3px solid;
+  border-color: blue;
+}
+#igicon{
+  background-color: red;
+  border-color: red;
+}
+
+/*end of social media icons*/
+/*end of grid-columns*/
+
+        /*texts*/
+        .name,
+        .dob,
+        .email,
+        .phone{
+          font-size: 1rem;
+          font-family: arial;
+          margin-left: 10px;
+          text-shadow: 0 0 5px white;
+        }
+        .name{
+          color: red;
+          text-shadow: 0 0 5px white;
+        }
+        .edu,
+        .work,
+        .about{
+          text-align: center;
+          background-color: skyblue; 
+          margin-top: 0px;
+        }
+        .proper{
+          text-align: center;
+          margin-top: 57px;
+          text-shadow: 3px 0px 3px white;
+          background-color: rgba(255, 0, 0, 0.6);
+        }
+        /*end of texts*/
+
+.footc{
+  height: 30px;
+}
+
