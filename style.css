@@ -17,17 +17,14 @@ h1 {
   color: white;
 }
 
-.grid-container {
-  display: grid;
+.container {
   margin-top: 5rem;
+  margin-left: 5rem;
   padding: 3rem;
-  align-items: center;
+  background-color: aquamarine;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: black 5px 4px 8px;
   justify-content: center;
 }
 
-.grid-item {
-  border-radius: 8px;
-  box-shadow: black 5px 4px 6px;
-  width: 320px;
-  background-color: aquamarine;
-}
