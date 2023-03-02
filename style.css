@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #c94496;
+  --primary-color: #302285;
 }
 
 body {
@@ -8,19 +8,18 @@ body {
 
 header {
   background: var(--primary-color);
-  padding: 2rem;
+  padding: 1rem;
   margin: auto;
   text-align: center;
 }
 
 h1 {
-  color:blue;
+  color: white;
 }
 
 .container {
   padding: 1rem;
   text-align: center;
-  color:green;
 }
 
 li {
