@@ -57,7 +57,7 @@
    line-height: 50px;
 }
 .text h1,h3,p{
-    color: aliceblue;
+    color: rgb(27, 124, 209);
 }
 
 .ok .btn{
@@ -93,4 +93,21 @@ img{
 }
 .content h1{
     text-align: center;
+}
+footer{
+    background: black;
+    color: aliceblue;
+    padding: 20px;
+}
+.contents h1{
+    text-align: center;
+}
+.sites a{
+    padding: 10px;
+    font-size: 40px;
+    color: #f4ff;
+}
+.sites a i:hover{
+    color: aliceblue;
+    transform: translateY(-5px);
 }
