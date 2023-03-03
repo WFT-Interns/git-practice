@@ -1,15 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Simple HTML File</title>
+	<title>My Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	
 </head>
 <body>
-	<h1>Welcome to my website!</h1>
-	<p>This is a paragraph of text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus et massa varius tincidunt eu a eros. Nullam blandit tellus quis tellus lobortis lobortis.</p>
-	<ul>
-		<li>List item 1</li>
-		<li>List item 2</li>
-		<li>List item 3</li>
-	</ul>
-</body>
-</html>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">My Portfolio</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#projects">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container mt-5" id="about">
+		<h2>About Me</h2>
+		<p>Hi, my name is John Doe and I'm a web developer. I have experience with HTML, CSS, JavaScript, and Bootstrap. I enjoy building responsive and user-friendly websites.</p>
+	</div>
+
+	<div class="container mt-5" id="projects">
+		<h2>Projects</h2>
+		<div class="row">
+			<div class="col-md-6 mb-4">
+				<div class="card">
+					<img class="card-img-top" src="https://images.unsplash.com/photo-1677624965247-4a8b6174dc65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=700&q=60" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Project 1</h5>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla felis dolor, aliquet vitae mauris ut, congue malesuada magna.</p>
+						<a href="#" class="btn btn-primary">Learn More</a>
+					</div>
+				</div>
+			</div>
+            <div class="col-md-6 mb-4">
+				<div class="card">
+					<img class="card-img-top" src="https://images.unsplash.com/photo-1661956601030-fdfb9c7e9e2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=700&q=60" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Project 1</h5>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla felis dolor, aliquet vitae mauris ut, congue malesuada magna.</p>
+						<a href="#" class="btn btn-primary">Learn More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-4">
+				<div class="card">
+					<img class="card-img-top" src="https://images.unsplash.com/photo-1677737805170-5e1e50fad26a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=60" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Project 2</h5>
+						<p class="card-text">Suspendisse vel augue sit amet nibh volutpat gravida. Vivamus ac nisi vel dolor pharetra pellentesque.</p>
+						<a href="#" class="btn btn-primary">Learn More</a>
+					</div>
+				</div>
+			</div>
+			
